@@ -1,0 +1,7 @@
+.session-form h2 {
+  font-size: 1.3rem;
+}
+
+.session-form-confidence {
+  gap: var(--space-4);
+}

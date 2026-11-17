@@ -1,0 +1,21 @@
+.practice-lead {
+  color: var(--color-muted);
+  max-width: 65ch;
+}
+
+.practice-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 380px) 1fr;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+@media (max-width: 880px) {
+  .practice-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.practice-results-title {
+  font-size: 1.3rem;
+}

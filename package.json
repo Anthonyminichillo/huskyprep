@@ -1,0 +1,37 @@
+{
+  "name": "huskyprep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Co-op interview experience board and practice tracker for Northeastern students.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "build": "npm install --prefix frontend --include=dev && npm run build --prefix frontend",
+    "seed": "node --env-file-if-exists=.env scripts/seed.js",
+    "lint": "eslint . && npm run lint --prefix frontend",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Drashti Bhavsar and Hard Gondaliya",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^6.0.0",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "mongodb": "^7.9.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.1"
+  }
+}

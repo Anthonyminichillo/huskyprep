@@ -1,0 +1,16 @@
+.notice {
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  margin-bottom: var(--space-3);
+  font-weight: 600;
+}
+
+.notice[data-type="success"] {
+  background: var(--color-success-bg);
+  color: var(--color-success-text);
+}
+
+.notice[data-type="error"] {
+  background: var(--color-error-bg);
+  color: var(--color-error-text);
+}

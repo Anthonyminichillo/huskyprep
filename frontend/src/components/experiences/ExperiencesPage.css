@@ -1,0 +1,21 @@
+.experiences-intro p {
+  color: var(--color-muted);
+  max-width: 65ch;
+}
+
+.experiences-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 400px) 1fr;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+@media (max-width: 880px) {
+  .experiences-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.experiences-results-title {
+  font-size: 1.3rem;
+}
