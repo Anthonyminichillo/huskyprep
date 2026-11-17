@@ -3,7 +3,6 @@ import { requireAuth } from "../auth/requireAuth.js";
 import {
   createExperience,
   deleteExperience,
-  getExperience,
   listExperiences,
   updateExperience,
 } from "../db/experiencesDB.js";
@@ -24,13 +23,6 @@ router.get("/", async (req, res) => {
     paging,
   );
   res.json({ items, total, page: paging.page, limit: paging.limit });
-});
-
-router.get("/:id", validateId, async (req, res) => {
-  const experience = await getExperience(req.params.id);
-  if (!experience)
-    return res.status(404).json({ error: "Experience not found." });
-  res.json(experience);
 });
 
 router.post("/", requireAuth, async (req, res) => {

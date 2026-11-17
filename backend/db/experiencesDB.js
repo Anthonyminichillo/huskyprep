@@ -40,10 +40,6 @@ export async function listExperiences(query, { skip, limit }) {
   return { items, total };
 }
 
-export async function getExperience(id) {
-  return experiences().findOne({ _id: new ObjectId(id) });
-}
-
 export async function createExperience(data, user) {
   const now = new Date();
   const doc = {

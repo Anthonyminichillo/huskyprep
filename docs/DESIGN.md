@@ -198,7 +198,6 @@ Each component lives in its own `.jsx` file with a `.css` file of the same name
 | POST   | `/api/auth/logout`     |        | Log out                                   |
 | GET    | `/api/meta`            |        | Allowed values for dropdowns              |
 | GET    | `/api/experiences`     |        | List and filter experiences (paginated)   |
-| GET    | `/api/experiences/:id` |        | One experience                            |
 | POST   | `/api/experiences`     | Yes    | Create an experience                      |
 | PUT    | `/api/experiences/:id` | Author | Update own experience                     |
 | DELETE | `/api/experiences/:id` | Author | Delete own experience                     |
