@@ -19,7 +19,8 @@ taught by Prof. John Alexis Guerra Gómez.
 
 ## Links
 
-- Live app: TODO-add-render-url
+- Code: [github.com/Drashti0913/huskyprep](https://github.com/Drashti0913/huskyprep)
+- Live app: [huskyprep.onrender.com](https://huskyprep.onrender.com)
 - Demo video: TODO-add-video-link
 - Slides: TODO-add-slides-link
 - Design document: [docs/DESIGN.md](docs/DESIGN.md)
@@ -86,8 +87,8 @@ Requirements: Node.js 22 or newer and a MongoDB database (local or
 [MongoDB Atlas](https://www.mongodb.com/atlas)).
 
 ```bash
-git clone TODO-add-repo-url
-cd P3
+git clone https://github.com/Drashti0913/huskyprep.git
+cd huskyprep
 npm install
 cp .env.example .env    # set MONGO_URI and SESSION_SECRET
 npm run seed            # synthetic data, replaces existing documents
