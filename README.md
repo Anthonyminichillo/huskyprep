@@ -5,6 +5,8 @@ Northeastern students.
 
 ![Interview experiences page](docs/screenshots/experiences.jpg)
 
+![My practice page](docs/screenshots/practice.jpg)
+
 ## Authors
 
 - **Drashti Bhavsar**: Interview experiences (`interview_experiences`
