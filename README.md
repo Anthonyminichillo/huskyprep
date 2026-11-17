@@ -23,7 +23,7 @@ taught by Prof. John Alexis Guerra Gómez.
 
 - Code: [github.com/Drashti0913/huskyprep](https://github.com/Drashti0913/huskyprep)
 - Live app: [huskyprep.onrender.com](https://huskyprep.onrender.com)
-- Demo video: TODO-add-video-link
+- Demo video: [Youtube](https://youtu.be/nGKc4q1QWD0)
 - Slides: [Google Slides](https://docs.google.com/presentation/d/1Y3Ol38MDR39I9MwgHsdD70JorNTz_zEl5H7wt61QMBA/edit?usp=sharing)
 - Design document: [docs/DESIGN.md](docs/DESIGN.md)
 
