@@ -121,10 +121,7 @@ Credentials live only in `.env` (ignored by git) and in Render's settings.
 
 ## Use of AI
 
-We used Claude Code (Anthropic's Claude Opus 5.5 model) to build this project.
-Starting from our approved proposal and the rubric, it generated the backend,
-the React components, the seed script, the ESLint and Prettier setup, and first
-drafts of the design document, mockups and this README. We tested the app,
+First drafts of the design document, mockups and this README. We tested the app,
 deployed it, and reviewed the code so that each of us can explain the part we
 own.
 
